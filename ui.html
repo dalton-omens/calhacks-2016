@@ -5,8 +5,29 @@
  value "popup.html".
  -->
 <html>
+  <head>
+  	<title>Title goes HERE</title>
+  	<meta name="viewport" content="initial-scale=1.0">
+  	<meta charset="utf-8">
+  	<style>
+  		#map {
+  			height: 400%;
+  		}
+  		html, body {
+  			height: 50%;
+  			margin: 0;
+  			padding: 0;
+  		}
+  	</style>
+  </head>
+  
   <body>
-	<p>HI</p>
+    <h1>Heading</h1>
+	<p id="table">HI DALTON</p>
+	<div id="map"></div>
+	<script src="sort.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuCcsgDJX5fryRz-_J5Q3lXy6M7ZY8ByE&callback=initMap"
+    async defer></script>
   </body>
-</html>
 
+</html>
